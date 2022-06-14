@@ -1,0 +1,15 @@
+.footer-container {
+    min-height: 420px;
+    height: auto;
+    background: url('../assets/Transparent-background-with-dots.png')no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+/* 
+.footer-container .content-div {
+   
+} */
+
+.footer-label {
+    top: 50%;
+}

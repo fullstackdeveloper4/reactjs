@@ -1,0 +1,297 @@
+.quote-container {
+    margin: 70px 0px!important;
+}
+.quote-container .card{
+box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+padding: 40px;
+border-radius: 20px;
+}
+.quote-container .from-div h1{
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+}
+.quote-container .from-div h1 span{
+    font-weight: 400;
+}
+.quote-container .from-div p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    width: 400px;
+}
+.quote-container .list-group-item .fas, .list-group-item .far {
+    color: #054B8B;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+}
+.quote-container .list-group {
+    margin-top: 50px;
+}
+.quote-container .list-group-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.quote-container .list-group-item span {
+    padding-left: 38px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.quote-container .quote-formpage {
+    margin-top: 15px;
+}
+.quote-container .quote-formpage .form-control, .quote-container .quote-formpage .css-1s2u09g-control {
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #D4D4D4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.quote-container .quote-formpage .css-1pahdxg-control:hover{
+    border-color: #D4D4D4;
+}
+.quote-container .quote-formpage .css-1pahdxg-control{
+    box-shadow: none;
+    border: 1px solid #D4D4D4;
+    min-height: auto!important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.quote-container .quote-formpage .css-1pahdxg-control > div {
+    padding: 0px;
+}
+.quote-container .quote-formpage .css-1pahdxg-control > div span{
+    display: none;
+}
+.quote-container .quote-formpage .css-1pahdxg-control > div > div{
+    margin: 0px;
+}
+.quote-container .quote-formpage .css-1pahdxg-control > div > div input{
+    background-color: transparent!important;
+}
+.quote-container .quote-formpage .css-1pahdxg-control > div > div svg{
+    fill: #000;
+}
+
+.quote-container .quote-formpage .css-1s2u09g-control > div {
+    padding: 0px; 
+}
+.quote-container .quote-formpage .css-1s2u09g-control > div span{    
+    display: none;
+}
+.quote-container .quote-formpage .css-1s2u09g-control > div > div{
+    margin: 0px;
+}
+.quote-container .quote-formpage .css-1s2u09g-control > div > div svg{
+    fill: #000;
+}
+.quote-container .quote-formpage .css-1s2u09g-control > div > div input{
+    background-color: transparent!important;
+}
+
+.quote-container .quote-formpage .form-control:focus, .quote-container .quote-formpage .css-1s2u09g-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.quote-container .quote-formpage button.theme-blue {
+    background-color: #054B8B;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    margin-top: 20px;
+}
+.quote-container .quote-formpage .card-subtitle {
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+/************/
+.quote-container .dimension-formpage .form-control {
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #D4D4D4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+}
+.quote-container .dimension-formpage .form-control option {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px;
+}
+.quote-container .dimension-formpage .form-control:hover,
+.quote-container .dimension-formpage .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.quote-container .dimension-formpage label {
+    font-weight: 700;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.dimension-formpage .col-md-2, .dimension-formpage .col-md-3 {
+    padding: 0 8px;
+}
+.dimension-formpage .row{
+    align-items: center;
+}
+.dimension-formpage button.btn.btn-secondary {
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #CECECE;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.dimension-formpage button.btn.btn-secondary:hover,
+.dimension-formpage button.btn.btn-secondary:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;    
+}
+.dimension-formpage button.btn.btn-secondary span {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 6px;
+}
+.dimension-formpage button.btn.btn-primary {
+    background-color: #054B8B;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    width: 340px;
+}
+.dimension-formpage button.btn.btn-primary:hover,
+.dimension-formpage button.btn.btn-primary:focus{
+    background-color: #054B8B;
+    outline: none;
+    border: none;
+}
+.dimension-formpage.was-validated .form-control:valid, .dimension-formpage.was-validated .form-control:invalid {
+    background-image: none;
+}
+.dimension-formpage .invalid-feedback {
+    margin: 0px;
+    position: absolute;
+}
+/*******/
+.shipping-box .row {
+    align-items: center;
+}
+.shipping-box .card {
+    box-shadow: none;
+    border: none;
+    padding: 0px;
+}
+.shipping-box .card .card-body {
+    padding: 0px;
+}
+.shipping-box .card .shpng-date {
+    width: 230px;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 20px;
+    background-color: #e4ecf2;
+    border-radius: 5px;
+}
+.shipping-box .card .shpng-date h4, .estimate-dlivry h4{
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px 0px 4px;
+}
+.shipping-box .card .shpng-date span, .estimate-dlivry span {
+    font-weight: 600;
+    font-size: 16px;
+}
+.shipping-box button.theme-blue.btn.btn-primary {
+    background-color: #054B8B;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    margin-top: 25px!important;
+}
+.totalprice span.text-capitalize.gst-txt {
+    font-size: 16px!important;
+}
+.totalprice span.price-txt{
+    font-size: 18px!important;
+}
+.shipping-box .includ-tx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shipping-box .includ-tx span.price-txt{
+    font-size:15px;
+}
+.shipping-box .includ-tx span.gst-txt {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+}
+.get-info-desc {
+    max-width: 100%;
+}
+.quote-container .from-div {
+    max-width: 100%;
+}
+.paymentType_logo img {
+    min-height: 25px;
+    width: 40px;
+    margin: 0 4px;
+}
+.quote_details_div_2 .paymentType_logo img {
+    min-width: fit-content;
+    padding: 0 2px;
+}
+.quote_details_div_1 {
+    min-width: 150px;
+}
+.quote_details_div_1 .card-body {
+    min-width: 150px;
+}
+.quote_details_div_1 .subtitle, .quote_details_div_2 .subtitle {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .shipping-box .paymentType_logo {
+        margin: 25px 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+.quote-container .quote-formpage button.theme-blue{
+    font-size: 15px;
+}
+.quote-container .card {
+    padding: 40px 20px;
+}
+.quote-container .from-div h1 {
+    font-size: 35px;
+}
+}

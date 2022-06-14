@@ -1,0 +1,281 @@
+/* .submit-button {
+    background: "#054B8B";
+  }
+  [type="button"],
+  [type="reset"],
+  [type="submit"],
+  .submit-button {
+    background: #054b8b !important;
+    width: 90%;
+    color: white !important;
+    height: 45px !important;
+    border-radius: 5px !important;
+  }
+ 
+   */
+.upadatepage-section {
+  padding: 70px 0px;
+}
+.upadatepage-section .ant-card {
+  box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+  padding: 40px;
+  border-radius: 20px;
+}
+.upadatepage-section .ant-card .ant-card-body {
+  padding: 0px;
+  width: 72%;
+  margin: 0 auto;
+}
+.upadatepage-section .ant-card .ant-card-body h2 {
+  font-size: 48px;
+  color: #000;
+  font-weight: 700;
+  margin: 0px;
+}
+.upadatepage-section .ant-card .ant-card-body p{
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.upadatepage-section input, .upadatepage-section .ant-select-selector {
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  border: 1px solid #E7E7E7!important;
+  border-radius: 5px!important;
+  padding: 0.375rem .75rem!important;
+  color: #495057!important;
+  font-size: 1rem!important;
+  min-height: 50px;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.upadatepage-section .ant-input-number {
+  border-radius: 0px;
+  border: none;
+  height: auto;
+  width: 100%;
+}
+.upadatepage-section .ant-form-horizontal .ant-form-item-label {
+  flex-grow: 0;
+  width: 160px;
+  text-align: left;
+  flex: none;
+}
+.upadatepage-section .ant-tabs-nav-list {
+  width: 100%;
+  justify-content: space-between;
+}
+.upadatepage-section .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.upadatepage-section span.ant-select-selection-item {
+  line-height: 50px!important;
+  font-size: 18px;
+  color: #495057;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+}
+.upadatepage-section .ant-col.ant-col-16.ant-col-offset-6.ant-form-item-control {
+  width: 100%;
+  flex: none;
+  margin: 0px;
+  max-width: calc(100% - 160px);
+  margin-left: auto;
+}
+.upadatepage-section button.ant-btn.w-100.light-blue-bg {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  height: 46px;
+  padding: 0px;
+  line-height: 0;
+  box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+}
+.upadatepage-section span.ant-input-affix-wrapper {
+  padding: 0px;
+  border: none;
+}
+.upadatepage-section span.ant-input-affix-wrapper:focus,
+.upadatepage-section span.ant-input-affix-wrapper:hover {
+  /*box-shadow: none;*/
+  outline: none;
+  background-color: transparent;
+}
+.upadatepage-section form#basic {
+  padding: 0 4px;
+}
+.upadatepage-section .ant-input-affix-wrapper > input.ant-input:focus {
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px!important;
+}
+.upadatepage-section form#basic input#basic_card_cvv_number {
+  width: 100%;
+  margin-left: auto;
+}
+.upadatepage-section form#basic .ant-picker{
+  border: none;
+  width: 100%;
+  padding: 0px
+}
+.upadatepage-section .pyment_logos{
+  margin: 20px 0px
+}
+.upadatepage-section .pyment_logos img{
+  width: 240px;
+  height: auto;
+}
+.upadatepage-section .ant-tabs-top > .ant-tabs-nav::before{
+  border-bottom: 2px solid #B2B4B5;
+}
+.upadatepage-section .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #054B8B;
+}
+.upadatepage-section .ant-tabs-tab:hover {
+  color: #054B8B;
+}
+.upadatepage-section .ant-tabs-ink-bar{
+  background: #054B8B;
+}
+.upadatepage-section .ant-tabs {
+  overflow: visible;
+}
+.upadatepage-section .ant-tabs .ant-tabs-content-holder span.ant-picker-clear,
+.upadatepage-section .ant-tabs .ant-tabs-content-holder span.ant-picker-suffix,
+.upadatepage-section .ant-tabs .ant-tabs-content-holder span.ant-input-suffix {
+  position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.expirydate-field{
+    width: 75%;
+    float: left;
+}
+.ant-row.ant-form-item.updateinfo-cvv.mb-full{
+  width: 25%;
+  padding-left: 50px;
+}
+.upadatepage-section input#basic_address {
+  border-radius: 0px!important;
+  box-shadow: none;
+  border: none!important;
+  height: auto;
+  background-color: transparent!important;
+  width: 100%;
+  padding: 0px!important;
+}
+.addressplace{
+  text-align: left!important;
+}
+.address-feld span.ant-select-selection-item {
+  color: #495057!important;
+  font-size: 1rem!important;
+  font-weight: 500;
+}
+.postal-field {
+  width: 30%;
+  padding-left: 20px!important;
+}
+.province-field {
+  width: 70%;
+  float: left;
+}
+.ant-row.ant-form-item.butn-fullwidt{
+  width: 100%;
+}
+.left-100{
+  float: left;
+  width: 100%;
+}
+.upadatepage-section .ant-tabs .crdnumber-all span.ant-input-suffix {
+  right: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .upadatepage-section .ant-form-item{
+    margin-bottom: 10px;
+  }
+  .upadatepage-section .ant-card .ant-card-body{
+    width: 100%;
+  }
+  .upadatepage-section form#basic input#basic_card_cvv_number{
+    width: 100%;      
+  }
+  .upadatepage-section .ant-col.ant-col-16.ant-col-offset-6.ant-form-item-control{
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .upadatepage-section .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab{
+    font-size: 14px;
+  }
+  .upadatepage-section .ant-row {
+    width: 100%;
+    display: inline-flex;
+  }
+  .upadatepage-section .ant-card {
+      padding: 40px 25px;
+  }
+  .expirydate-field {
+    width: 75%!important;
+  }
+  .postal-field {
+    width: 30%!important;
+    padding-left: 20px!important;
+  }
+  .province-field {
+    width: 70%!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+.upadatepage-section .ant-row {
+  display: block;
+}
+.ant-row.ant-form-item.updateinfo-cvv.mb-full {
+  width: 40%!important;
+  padding-left: 32px;
+  float: left;
+  margin-top: 48px;
+}
+.upadatepage-section .expirydate-field {
+  width: 60%!important;
+  float: left;
+}
+.upadatepage-section .postal-field {
+  width: 40%!important;
+  float: left;
+  margin-top: 48px;
+}
+.upadatepage-section .province-field {
+  width: 60%!important;
+}
+}
+
+@media screen and (max-width: 575px) {
+.upadatepage-section .ant-card .ant-card-body h2{
+  font-size: 35px;
+}
+.upadatepage-section .ant-card{
+  padding: 40px 20px;
+}
+.upadatepage-section .ant-tabs-nav-list {
+  display: block!important;
+}
+.upadatepage-section .ant-tabs-nav-list .ant-tabs-tab.ant-tabs-tab-active {
+  border-bottom: 2px solid #054B8B;
+}
+.upadatepage-section .ant-tabs-nav-list .ant-tabs-tab {
+  display: block;
+  border-bottom: 2px solid #ddd;
+}
+.upadatepage-section .ant-tabs-ink-bar {
+  background: transparent;
+}
+}

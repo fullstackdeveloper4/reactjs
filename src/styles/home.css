@@ -1,0 +1,266 @@
+body{
+    font-family: 'Raleway', sans-serif!important;
+}
+.home-container {
+    background: url('../assets/Group 906.png')no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 440px;
+    margin-top: 70px;
+    position: relative;
+}
+.logged-in-honme-container{
+        background: url('../assets/Group\ 1044.png')no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        padding-top: 740px;
+        position: relative;
+}
+.home-container .banner-aligmnent {
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-weight: 600;
+    font-size: 42px;
+}
+.logged-in-honme-container .banner-aligmnent {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+}
+.banner-aligmnent h1 {
+    color: #DBDBDB;
+    font-size: 48px;
+}
+.banner-aligmnent p{
+    margin: 0px;
+    color: #DBDBDB;
+    font-size: 18px;
+}
+
+.home-container .content-div {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.home-label {
+    top: 50%;
+}
+.card-prop{
+    min-height:170px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.graph-card-prop{
+    min-height:300px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.table-card-prop{
+    min-height: 300px;
+    max-height:600px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card-color1{
+    background: #11F24D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #118019, #11F24D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #118019, #11F24D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card-color2{
+    background: #6AA5E3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #6866E9, #6AA5E3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #6866E9, #6AA5E3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.card-color3{
+    background: #FEB683;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FF8993, #FEB683);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FF8993, #FEB683); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+/******dashboardPage*****/
+.without-banner{
+    margin-top: 70px;
+}
+.allpagpading{
+    padding: 50px 0px;
+}
+.dashboarfpage-section h1 {
+    color: #707070;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0px 0px 30px;
+}
+.dashbor-sec .card {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+}
+.dashbor-sec .card img {
+    max-width: 50px;
+    margin-bottom: 14px;
+}
+.dashbor-sec .card .card-title.h5 {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.dashbor-sec .card.card-prop {
+    min-height: 140px;
+    padding: 30px 0px;
+}
+.dashboarfpage-section .dashbor-sec, .dashboarfpage-section .dasgraph-section{
+    margin-bottom: 50px;
+}
+.dasgraph-section.row .graph-card-prop.card {
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+}
+.dasgraph-section.row .card-title.h5 {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    border-bottom: 2px solid #EBF2F7;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.dasgraph-section.row .chartheight {
+    height: 300px;
+}
+.dasgraph-section.row .chartheight canvas{
+    height: 300px!important;
+}
+.dastable-section table, .dastable-section table td,
+.dastable-section table th {
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dastable-section table thead th {
+    border-bottom: 1px solid #EFEFEF;
+}
+.dastable-section table tr:last-child td{
+    border-bottom: none!important;
+}
+.dastable-section table td{
+    border-bottom: 1px solid #EFEFEF!important;
+}
+.dastable-section table tr td {
+    width: 140px;
+}
+.dastable-section table tr td:last-child span {
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.dastable-section table tr td:last-child span.green{
+    background-color: #07C72D;
+}
+.dastable-section table tr td:last-child span.blue{
+    background-color: #054B8B;
+}
+.dastable-section .table-card.card{
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+    border: none;
+}
+.dastable-section .table-card.card .card-title.h5{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    border-bottom: 2px solid #EBF2F7;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 991px) {
+.dashbor-sec .card .card-title.h5 {
+    font-size: 18px;
+    text-align: center;
+}
+.uppersdatselect .inputcutm .ant-picker{
+    width: 220px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.dashbor-sec .card.card-prop{
+    margin-bottom: 20px;
+}
+.uppersdatselect{
+    display: block;
+    padding: 0px;
+}
+.uppersdatselect .inputcutm {
+    margin-bottom: 14px;
+}
+.uppersdatselect .inputcutm .ant-picker{
+    width: 100%;
+}
+.uppersdatselect .inputcutmbtn{
+    text-align: center;
+}
+.dshbord-txt{
+    font-size: 20px;
+}
+.dasgraph-section .col-lg-4.col-md-4.col-sm-12 {
+    margin-top: 20px;
+}
+.dasgraph-section.row .col-lg-4.col-md-4.col-sm-12 .chartheight canvas, .dasgraph-section.row .col-lg-4.col-md-4.col-sm-12 .chartheight {
+    height: auto!important;
+}
+.histry-date{
+    display: block!important;
+}
+.histry-date .ant-picker.ant-picker-range.histrdate-div{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 14px;
+}
+.histry-date button.oderListBtn {
+    margin: 20px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dasgraph-section.row .col-lg-8.col-md-8.col-sm-12 .chartheight canvas{
+    height: 100%!important;
+}
+.dasgraph-section.row .col-lg-8.col-md-8.col-sm-12 .chartheight{
+    height: auto;
+}
+.dasgraph-section.row .col-lg-8.col-md-8.col-sm-12 .graph-card-prop{
+    height: auto;
+    min-height: auto;
+}
+.histry-date h4 {
+    margin-bottom: 30px!important;
+}
+.home-container{
+    padding-top: 350px;
+  }
+  .home-container .banner-aligmnent{
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+.dastable-section table td,
+.dastable-section table th{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+}
